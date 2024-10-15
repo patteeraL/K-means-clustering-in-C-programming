@@ -139,4 +139,4 @@ The test target is a placeholder, and you can customize it with your own test ca
 The all, clean, valgrind, debug, test, and help targets are marked as phony, meaning they are not associated with actual files.
 
 ## Author
-Developed by Patteera Lerdtada.
+Developed by Patteera Lerdtada, Xuning Zhang, Thee Kullatee
