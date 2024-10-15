@@ -108,19 +108,29 @@ EXEC: Defines the name of the executable (kmeans).
 
 ### Compile the Program
 To compile the program and create the kmeans executable:
-  ``` make ```
+``` 
+make
+```
 ### Clean Up
 To remove the compiled object files and executable:
-  ``` make clean ```
+  ``` 
+  make clean
+ ```
 ### Run Valgrind for Memory Leak Detection
 To check for memory leaks using Valgrind:
-   ```make valgrind ```
+   ```
+   make valgrind
+ ```
 ### Debug with GDB
 To run the executable in GDB for debugging:
- ```  make debug ```
+ ``` 
+ make debug
+ ```
 ### View Help
 To display help information:
- ```  make help ```
+ ``` 
+ make help
+ ```
    
 ### Notes
 You can modify the CFLAGS or SRCS variables if you wish to change compiler options or add more source files.
