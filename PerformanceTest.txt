@@ -1,0 +1,11 @@
+Computer Resources:
+	- Memory: 4GB RAM
+	- Total Core Processors: 4 virtualized cores (Intel Core i7-8650U, 1.90GHz, 2112 MHz)
+	- Hard Disk: 150GB (Fixed hard disk, HDD)
+	- Graphics: Intel UHD Graphics 620
+
+To choose an appropriate large dataset, we gradually increase size of datasets by 10,000 data points and test the dataset by having the same amount of clusters as data points (to test maximum processing power) until computing limitations have been exhausted or an unreasonable amount of time has passed.
+
+We conclude the dataset of 60,000 data points to be large as it finds the solution in an appropriate amount of time while still below but maximizing the device's computing and processing power. 
+
+This is because as we tested with 70,000 data points, the time taken for the clustering algorithm predicted (by the linear regression mapping of time taken from increasing datasets) compared to the actual time taken differs by 50%, which we conclude to be a too unreasonable timeframe.
