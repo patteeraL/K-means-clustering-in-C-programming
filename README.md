@@ -1,9 +1,5 @@
 # K-Means Clustering in C
 
-## Overview
-### Description
-This project implements the **K-Means Clustering** algorithm in C to group 2-dimensional data points into a specified number of clusters (`k`). It uses **Euclidean distance** to assign points to clusters and iteratively adjusts the centroids until convergence or a maximum number of iterations.
-
 ### Features
 - Reads data points from a `.txt` file.
 - User-defined number of clusters (`k`).
