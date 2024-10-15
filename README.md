@@ -1,10 +1,10 @@
 # K-Means Clustering in C
 
 ## Overview
-### # Description
+### Description
 This project implements the **K-Means Clustering** algorithm in C to group 2-dimensional data points into a specified number of clusters (`k`). It uses **Euclidean distance** to assign points to clusters and iteratively adjusts the centroids until convergence or a maximum number of iterations.
 
-### # Features
+### Features
 - Reads data points from a `.txt` file.
 - User-defined number of clusters (`k`).
 - Manual or automatic centroid initialization.
@@ -13,40 +13,40 @@ This project implements the **K-Means Clustering** algorithm in C to group 2-dim
 - Stops upon convergence or after 100 iterations.
 
 ## Files
-### # 1. `main.c`
+### 1. `main.c`
 Contains the main program logic:
 - Reads data from a file.
 - Runs the K-Means clustering algorithm.
 - Writes the results to an output file (`kmeans-output.txt`).
 
-### # 2. `kmeans.c`
+### 2. `kmeans.c`
 Implements the core algorithm:
 - Memory allocation for data points and clusters.
 - Distance calculation and centroid initialization.
 - Point assignment and centroid updating.
 
 ## How to Compile and Run
-### # Prerequisites
+### Prerequisites
 - A C compiler (e.g., GCC).
 - A data file in `.txt` format where each line contains space-separated `x` and `y` coordinates.
 
-### # Compilation
+### Compilation
 ```bash
 gcc main.c kmeans.c -o kmeans
 ```
 
-### # Running the Program
+### Running the Program
 ```bash
 ./kmeans
 ```
 
-### # Input Process
+### Input Process
 1. Enter the number of clusters (`k`).
 2. Choose centroid initialization:
    - `y`: Manual (specify indices of points).
    - `n`: Automatic (random selection of centroids).
 
-### # Example Data File (`kmeans-data.txt`)
+### Example Data File (`kmeans-data.txt`)
 ```
 2.3 4.1
 5.0 1.9
@@ -56,7 +56,7 @@ gcc main.c kmeans.c -o kmeans
 ```
 
 ## Output
-### # Output File (`kmeans-output.txt`)
+### Output File (`kmeans-output.txt`)
 The results are saved in a file with the following format:
 ```
 x y cluster
@@ -67,7 +67,7 @@ x y cluster
 ...
 ```
 
-### # Confirmation Message
+### Confirmation Message
 After successful completion, the program prints:
 ```
 Results Updated Successfully in 'kmeans-output.txt'!
