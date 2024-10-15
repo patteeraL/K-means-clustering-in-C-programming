@@ -86,7 +86,7 @@ All dynamically allocated memory for data points and clusters is freed at the en
 You can change the **maximum number of iterations** by modifying the `MAX_ITERATIONS` constant in both `main.c` and `kmeans.c`.
 
 # Makefile for K-Means Clustering
-## Overview
+### Overview
 This Makefile is designed to automate the compilation, cleanup, memory leak checking, and debugging processes for the K-Means Clustering program written in C. It compiles source files, links them into an executable, and provides additional targets for memory checking and debugging.
 
 ### Targets
@@ -108,19 +108,19 @@ EXEC: Defines the name of the executable (kmeans).
 
 ### Compile the Program
 To compile the program and create the kmeans executable:
-   make
+  ``` make ```
 ### Clean Up
 To remove the compiled object files and executable:
-   make clean
+  ``` make clean ```
 ### Run Valgrind for Memory Leak Detection
 To check for memory leaks using Valgrind:
-   make valgrind
+   ```make valgrind ```
 ### Debug with GDB
 To run the executable in GDB for debugging:
-   make debug
+ ```  make debug ```
 ### View Help
 To display help information:
-   make help
+ ```  make help ```
    
 ### Notes
 You can modify the CFLAGS or SRCS variables if you wish to change compiler options or add more source files.
